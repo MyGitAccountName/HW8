@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.post {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #2d91b1;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.post__button {
+    /*padding: 10px;*/
+}
+
+.post__content {
+    color: #2d91b1;
+    text-align: left;
+}
+
+.post__button button{
+    background-color: #97cddc;
+    border: 2px solid #2d91b1;
+    padding: 5px;
+}
+
